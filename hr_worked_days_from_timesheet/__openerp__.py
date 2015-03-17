@@ -26,25 +26,26 @@
     'description': """
 Worked Days From Timesheet
 ==========================
-* Adds a button to import worked days from timesheet
+* Add a button to import worked days from timesheet in a single payslip
+* Add the option to import worked days from timesheet in payslip batches
+  when generating payslips.
 
 Contributors
 ------------
 * David Dufresne <david.dufresne@savoirfairelinux.com>
 * Pierre Lamarche <pierre.lamarche@savoirfairelinux.com>
 """,
-    'author': 'Savoir-faire Linux',
+    'author': "Savoir-faire Linux,Odoo Community Association (OCA)",
     'website': 'https://www.savoirfairelinux.com/',
     'depends': [
         'hr_payroll',
         'hr_timesheet_sheet',
     ],
     'data': [
-        'hr_payslip_view.xml'
+        'hr_payslip_view.xml',
+        'hr_payslip_employees_view.xml',
     ],
-    'test': [
-        'test/worked_days_from_timesheet_test.yml'
-    ],
+    'test': [],
     'demo': [],
     'installable': True,
 }
