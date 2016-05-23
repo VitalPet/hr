@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hr (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-14 04:15+0000\n"
-"PO-Revision-Date: 2016-04-06 04:35+0000\n"
+"POT-Creation-Date: 2016-04-30 02:40+0000\n"
+"PO-Revision-Date: 2016-04-30 06:16+0000\n"
 "Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/oca/OCA-hr-8-0/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -51,6 +51,11 @@ msgid "Date may change"
 msgstr "Datum se lahko spremeni"
 
 #. module: hr_public_holidays
+#: field:hr.holidays.public.line,display_name:0
+msgid "Display Name"
+msgstr "Prikazni naziv"
+
+#. module: hr_public_holidays
 #: field:hr.holidays.public,line_ids:0
 msgid "Holiday Dates"
 msgstr "Datumi praznikov"
@@ -59,6 +64,12 @@ msgstr "Datumi praznikov"
 #: field:hr.holidays.public,id:0 field:hr.holidays.public.line,id:0
 msgid "ID"
 msgstr "ID"
+
+#. module: hr_public_holidays
+#: field:hr.holidays.public,__last_update:0
+#: field:hr.holidays.public.line,__last_update:0
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
 
 #. module: hr_public_holidays
 #: field:hr.holidays.public,write_uid:0

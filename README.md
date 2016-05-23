@@ -43,17 +43,21 @@ addon | version | summary
 [hr_expense_analytic_default](hr_expense_analytic_default/) | 8.0.0.1.0 | Manage default analytic account on expenses
 [hr_expense_analytic_plans](hr_expense_analytic_plans/) | 8.0.1.0.0 | Use analytic plans in expenses
 [hr_expense_invoice](hr_expense_invoice/) | 8.0.1.0.0 | Supplier invoices on HR expenses
+[hr_expense_move_date](hr_expense_move_date/) | 8.0.1.0.0 | Move date for HR expenses journal entries
 [hr_expense_sequence](hr_expense_sequence/) | 8.0.1.0.0 | HR expense sequence
 [hr_experience](hr_experience/) | 8.0.1.1.0 | Experience Management
 [hr_family](hr_family/) | 8.0.1.2.0 | Employee Family Information
+[hr_holidays_compute_days](hr_holidays_compute_days/) | 8.0.1.0.0 | Computes the actual leave days considering rest days and public holidays
 [hr_job_categories](hr_job_categories/) | 8.0.1.0.0 | HR Job Employee Categories
 [hr_language](hr_language/) | 8.0.0.1.0 | Language Management
+[hr_payslip_move_date](hr_payslip_move_date/) | 8.0.0.1.0 | HR Payslip Move Date
 [hr_public_holidays](hr_public_holidays/) | 8.0.1.0.0 | Manage Public Holidays
 [hr_recruitment_partner](hr_recruitment_partner/) | 8.0.1.0.0 | Automatically create a Partner for Applicants
 [hr_salary_rule_reference](hr_salary_rule_reference/) | 8.0.1.0.0 | Salary Rule Reference
 [hr_security](hr_security/) | 8.0.1.0.0 | HR Permission Groups
 [hr_skill](hr_skill/) | 8.0.1.1.0 | Skill Management
 [hr_webcam](hr_webcam/) | 8.0.1.0.0 | Capture employee picture with webcam
+[hr_worked_days_from_timesheet](hr_worked_days_from_timesheet/) | 8.0.1.0.0 | Worked Days From Timesheet
 
 Unported addons
 ---------------
@@ -93,7 +97,6 @@ addon | version | summary
 [hr_transfer](hr_transfer/) | 1.0 (unported) | Departmental Transfer
 [hr_wage_increment](hr_wage_increment/) | 1.0 (unported) | HR Wage Increment
 [hr_worked_days_activity](hr_worked_days_activity/) | 1.0 (unported) | Worked Days Activity
-[hr_worked_days_from_timesheet](hr_worked_days_from_timesheet/) | 1.0 (unported) | Worked Days From Timesheet
 [hr_worked_days_hourly_rate](hr_worked_days_hourly_rate/) | 1.0 (unported) | Worked Days Hourly Rates
 
 [//]: # (end addons)
