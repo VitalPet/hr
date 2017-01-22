@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Paolo Valier, 2016
+# Paolo Valier, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: hr (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-12 12:02+0000\n"
-"PO-Revision-Date: 2016-03-19 10:42+0000\n"
-"Last-Translator: Paolo Valier\n"
+"POT-Creation-Date: 2017-01-14 03:17+0000\n"
+"PO-Revision-Date: 2017-01-14 17:50+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Italian (http://www.transifex.com/oca/OCA-hr-8-0/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -146,6 +147,12 @@ msgid "Diploma"
 msgstr "Diploma"
 
 #. module: hr_experience
+#: field:hr.academic,display_name:0 field:hr.certification,display_name:0
+#: field:hr.curriculum,display_name:0 field:hr.experience,display_name:0
+msgid "Display Name"
+msgstr "Nome da visualizzare"
+
+#. module: hr_experience
 #: view:hr.academic:hr_experience.view_academic_tree
 msgid "Education"
 msgstr ""
@@ -222,6 +229,12 @@ msgid "Issued By"
 msgstr ""
 
 #. module: hr_experience
+#: field:hr.academic,__last_update:0 field:hr.certification,__last_update:0
+#: field:hr.curriculum,__last_update:0 field:hr.experience,__last_update:0
+msgid "Last Modified on"
+msgstr "Ultima modifica il"
+
+#. module: hr_experience
 #: field:hr.academic,write_uid:0 field:hr.certification,write_uid:0
 #: field:hr.curriculum,write_uid:0 field:hr.experience,write_uid:0
 msgid "Last Updated by"
@@ -239,7 +252,7 @@ msgstr "Ultimo aggiornamento il"
 #: field:hr.curriculum,location:0 help:hr.curriculum,location:0
 #: field:hr.experience,location:0 help:hr.experience,location:0
 msgid "Location"
-msgstr ""
+msgstr "Posizione"
 
 #. module: hr_experience
 #: field:hr.academic,name:0 field:hr.certification,name:0
@@ -254,7 +267,7 @@ msgstr "Nome"
 #: view:hr.employee:hr_experience.view_employee_form_inherit
 #: field:hr.experience,partner_id:0
 msgid "Partner"
-msgstr ""
+msgstr "Partner"
 
 #. module: hr_experience
 #: view:hr.certification:hr_experience.view_certification_form
@@ -267,7 +280,7 @@ msgstr ""
 #: view:hr.experience:hr_experience.view_professional_form
 #: view:hr.experience:hr_experience.view_professional_tree
 msgid "Position"
-msgstr ""
+msgstr "Posizione"
 
 #. module: hr_experience
 #: selection:hr.experience,category:0
